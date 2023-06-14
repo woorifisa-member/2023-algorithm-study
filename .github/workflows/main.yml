@@ -1,0 +1,11 @@
+- name: Assign Reviewers to PR
+  # You may pin to the exact commit or the version.
+  # uses: itsOliverBott/assign-pr-reviewers@bfe99c76aab72b700a61b84a2703e923a16d9390
+  uses: itsOliverBott/assign-pr-reviewers@release
+  with:
+    # GitHub token for repository access
+    token: 
+    # Comma-separated users to be added as reviewers (example: "itsOliverBott, SantaClaus, b4tman, sp0derman")
+    users: "Cloudyee, ooutta, purin48, younnacho, yyi9546, image00, yybeen"
+    # Ignore action if PR is a draft
+    ignore-drafts: # optional
